@@ -24,11 +24,15 @@ body {
     max-width: 1920px;
     width: 100%;
 
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+
+    color: white;
 }
 
 header{
     text-align: center;
+    margin: 50px;
 }
 
 main { 
@@ -39,15 +43,21 @@ main {
 
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 50px;
+}
+
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #f44336;
-    width: 500px;
-    height: 200px;
-    border-radius: 5px;
 }
 
 .servico{
@@ -61,20 +71,26 @@ main {
 
 
 a:link, a:visited {
-    background-color: #f44336;
-    color: white;
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));    color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
 
   }
   
   a:hover, a:active {
-    background-color: red;
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+    font-weight: bold;
+    transition: .5s;
   }
 
   footer{
+      margin-top: 50px;
       text-align: center;
   }
 
